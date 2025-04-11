@@ -1,17 +1,22 @@
-# ⚽ Football Odds App（稳定修复版）
+# ⚽ Football Odds Predictor with BetsAPI Token
 
-支持预测胜平负 + 生成赔率，可视化展示结果，支持中超赛程自动填入，部署于 Streamlit Cloud 稳定运行。
+This Streamlit app predicts CSL football match outcomes and odds using machine learning. It integrates with BetsAPI for live CSL fixtures.
 
-## ✨ 功能包括：
-- 模型训练（本地 CSV）
-- 单场或多场预测
-- 懂球帝接口爬取赛程
-- 中文饼图支持
-- 自动保存/导出记录
+## ✅ Features
+- Train model from uploaded CSV or example
+- Manual or automatic match entry
+- Batch prediction via BetsAPI CSL fixtures
+- Pie chart + odds conversion
+- Export records to CSV
 
-## 运行方式：
+## 🏃 Run locally
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+```
+
+🔐 Token already embedded:
+```
+token=114914-zmAWKLNAHcge1r
 ```
